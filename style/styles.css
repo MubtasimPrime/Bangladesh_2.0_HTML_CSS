@@ -20,10 +20,12 @@ body {
   font-weight: 600;
   transition: 0.3s color ease;
   transition: 0.3s background-color ease;
+  cursor: pointer;
 }
 
 nav {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   margin: 0px auto;
   margin-top: 30px;
