@@ -444,7 +444,6 @@ input[type="text"] {
   width: 75%;
   font-size: 20px;
   font-style: inherit;
-
   border: none;
   padding: 20px 40px;
 }
@@ -465,4 +464,61 @@ input::placeholder {
 .taka-btn:hover {
   background-color: #f1f1f3;
   color: #006a50;
+}
+
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #c6e4d6;
+  margin-bottom: 160px;
+  padding: 80px 100px;
+  border-radius: 24px;
+}
+
+.subscribe h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+#subs-p {
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.7);
+  margin-bottom: 24px;
+}
+
+input[type="email"] {
+  width: 600px;
+  padding: 18px 40px;
+  font-style: inherit;
+  font-size: 16px;
+  border-radius: 8px 0 0 8px;
+  border: none;
+}
+
+#spam-p {
+  font-size: 16px;
+  margin-top: 24px;
+  color: rgba(14, 14, 14, 0.7);
+}
+
+.subs-btn {
+  padding: 17px 34px;
+  border-radius: 0 8px 8px 0;
+  background-color: #006a50;
+  color: white;
+  font-size: 18px;
+}
+
+.subs-input-button {
+  display: flex;
+}
+
+footer hr {
+  position: absolute;
+  width: 100%;
 }
